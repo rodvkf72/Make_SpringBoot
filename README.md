@@ -7,11 +7,13 @@
 <br>
 <br>
 1. sts4를 실행한 뒤 왼쪽 상단의 File -> New -> Spring Starter Project 를 클릭한다. Spring Starter Project 가 안보인다면 File -> New -> Other 을 클릭한 뒤 Wizards 아래의 텍스트 박스에 spring 이라고 검색한다.
+<br>
 ![image](https://user-images.githubusercontent.com/48707324/125416774-4347d8e6-0ad9-4813-9826-e91a8e5b8438.png)
 <br>
 <br>
 <br>
 2. 아래의 그림으로 설명한다.
+<br>
 ![image](https://user-images.githubusercontent.com/48707324/125416907-70b4ec22-43ff-46c7-a2ca-cbde8cf45f1d.png)
 <br>
 Service URL은 Spring Boot 패키지를 만들어주는 사이트이다. 기본으로 선택되어 있으니 넘어간다.
@@ -41,6 +43,7 @@ Working sets 는 나도 모른다. 그냥 넘어가자.
 <br>
 <br>
 3. 아래의 그림으로 설명한다.
+<br>
 ![image](https://user-images.githubusercontent.com/48707324/125418240-93bddd22-074f-4de1-b8d2-6989f1fd5361.png)
 <br>
 Spring Boot Version 은 버전마다 무슨 차이인지 잘 모르니 그냥 냅두자.
@@ -61,6 +64,7 @@ Available 이라고 밑에 뭐 온갖게 쭉 있는데 쓸 사람만 체크해�
 <br>
 <br>
 6. 그럼 이제 MySQL Driver 설정을 하자. 프로젝트에서 src/main/resources 를 열어보면 application.properties 라는 파일이 있다. 이걸 열어보면 아무것도 없을텐데 아래의 그림에서 DB주소와 username(id) 와 password 를 변경해서 넣어주면 된다. 물론 포트를 바꾸고 싶다면 첫 줄의 포트를 수정해도 된다. 그리고 앞에 #이 붙은건 주석처리 된 것이니 신경 안써도 된다.
+<br>
 ![image](https://user-images.githubusercontent.com/48707324/125420725-116850d1-6842-45bc-adb2-2ee9a4f0aef0.png)
 <br>
 <br>
