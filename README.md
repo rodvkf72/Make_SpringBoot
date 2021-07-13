@@ -8,13 +8,13 @@
 <br>
 1. sts4를 실행한 뒤 왼쪽 상단의 File -> New -> Spring Starter Project 를 클릭한다. Spring Starter Project 가 안보인다면 File -> New -> Other 을 클릭한 뒤 Wizards 아래의 텍스트 박스에 spring 이라고 검색한다.
 <br>
-<img width="100%" src="https://user-images.githubusercontent.com/48707324/125416774-4347d8e6-0ad9-4813-9826-e91a8e5b8438.png"/>
+<img width="70%" src="https://user-images.githubusercontent.com/48707324/125416774-4347d8e6-0ad9-4813-9826-e91a8e5b8438.png"/>
 <br>
 <br>
 <br>
 2. 아래의 그림으로 설명한다.
 <br>
-<img width="100%" src="https://user-images.githubusercontent.com/48707324/125416907-70b4ec22-43ff-46c7-a2ca-cbde8cf45f1d.png"/>
+<img width="70%" src="https://user-images.githubusercontent.com/48707324/125416907-70b4ec22-43ff-46c7-a2ca-cbde8cf45f1d.png"/>
 <br>
 Service URL은 Spring Boot 패키지를 만들어주는 사이트이다. 기본으로 선택되어 있으니 넘어간다.
 <br>
@@ -44,7 +44,7 @@ Working sets 는 나도 모른다. 그냥 넘어가자.
 <br>
 3. 아래의 그림으로 설명한다.
 <br>
-<img width="100%" src="https://user-images.githubusercontent.com/48707324/125418240-93bddd22-074f-4de1-b8d2-6989f1fd5361.png"/>
+<img width="70%" src="https://user-images.githubusercontent.com/48707324/125418240-93bddd22-074f-4de1-b8d2-6989f1fd5361.png"/>
 <br>
 Spring Boot Version 은 버전마다 무슨 차이인지 잘 모르니 그냥 냅두자.
 <br>
