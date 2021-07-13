@@ -22,9 +22,9 @@
 <br><br>
 - Type 은 Maven, Gradle 중 선택 가능하다. 난 Maven을 사용하므로 Maven을 체크.
 <br><br>
-- Packaging 은 말 그대로 패키징을 뜻하는데 Jar와 War가 있을 것이다. Jar는 원본파일 그대로, War는 필요한 파일만 압축한다고 생각하면 이해하기 편하다.
+- Packaging 은 말 그대로 패키징을 뜻하는데 Jar와 War가 있을 것이다. Jar는 원본파일 그대로, War는 필요한 파일만 압축한다고 생각하면 이해하기 편하다. 실제로 이렇다는건 아니다
 <br><br>
-- Java Version 은 자바 버전으로 11이상을 권장한다. 내가 알기론 자바 11 이상에서 Spring Boot 가 되는걸로 알아서(이 부분은 정확한건 아님)
+- Java Version 은 자바 버전으로 11이상을 권장한다. 내가 알기론 자바 11 이상에서 Spring Boot 가 되는걸로 알고 있다. (이 부분은 정확한건 아님)
 <br><br>
 - Language 는 언어. Kotlen, Groovy로도 작성이 가능한가보다. 난 안해봤다.
 <br><br>
@@ -48,7 +48,7 @@
 <br><br>
 - Frequently Used 가 있는데 이건 Spring Boot로 패키지를 만들 때 일일히 찾아가면서 Maven Repository 뒤지지 말라고 넣어준 기능같다.<br>
   여기에 있는걸 체크하면 해당 기능이 활성화 된다. 진짜 아무것도 없이 웹에 Hello World 하나 찍을거라면 아무것도 안해도 되지만 우리는 웹 개발자 아닌가! 그렇다면 기본적으로 DB 연결은 필수 요소이니 MySQL Driver, 그리고 Spring을 사용하는데 어노테이션을 안쓸 수 있나? Getter Setter 일일히 하나하나 다 만들 순 없다. 그러므로 Lombok도 체크. 그리고 DB 와의 언어구문적? 연동을 쉽게 해주는 MyBatis. 이렇게 세 개는 아마 어디서 웹 개발을 하든 다 사용할 것이다. 무조건 체크해주자.<br>
-  그리고 테스트 해 봤는데 위의 7개 요소 중 6개는 굳이 설정을 안해도 된다. MySQL Driver 하나 빼고..
+  그리고 테스트 해 봤는데 위의 7개 요소 중 6개는 굳이 설정을 안해도 된다. MySQL Driver 하나 빼고.. 하지만 MySQL 설정까지 할거니 7개 다 체크하면 된다.
 <br><br>
 - Available 이라고 밑에 뭐 온갖게 쭉 있는데 쓸 사람만 체크해서 넣도록 하자. 그리고 Finish를 누르면 패키지가 만들어진다.
 <br>
