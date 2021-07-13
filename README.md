@@ -6,13 +6,13 @@
 이 글은 <b>Spring Tool Suite 4</b> 를 기준으로 작성 되었습니다.
 <br>
 <br>
-## 1. sts4를 실행한 뒤 왼쪽 상단의 File -> New -> Spring Starter Project 를 클릭한다. Spring Starter Project 가 안보인다면 File -> New -> Other 을 클릭한 뒤 Wizards 아래의 텍스트 박스에 spring 이라고 검색한다.
+# 1. sts4를 실행한 뒤 왼쪽 상단의 File -> New -> Spring Starter Project 를 클릭한다. Spring Starter Project 가 안보인다면 File -> New -> Other 을 클릭한 뒤 Wizards 아래의 텍스트 박스에 spring 이라고 검색한다.
 <br>
 <img width="70%" src="https://user-images.githubusercontent.com/48707324/125416774-4347d8e6-0ad9-4813-9826-e91a8e5b8438.png"/>
 <br>
 <br>
 <br>
-## 2. 아래의 그림으로 설명한다.
+# 2. 아래의 그림으로 설명한다.
 <br>
 <img width="70%" src="https://user-images.githubusercontent.com/48707324/125416907-70b4ec22-43ff-46c7-a2ca-cbde8cf45f1d.png"/>
 <br>
@@ -42,7 +42,7 @@
 <br>
 <br>
 <br>
-## 3. 아래의 그림으로 설명한다.
+# 3. 아래의 그림으로 설명한다.
 <br>
 <img width="70%" src="https://user-images.githubusercontent.com/48707324/125418240-93bddd22-074f-4de1-b8d2-6989f1fd5361.png"/>
 <br>
@@ -54,20 +54,20 @@
 <br>
 <br>
 <br>
-## 4. 만들었으니 실행해볼텐데 오른쪽 아래의 초록색이 움직이고 있다면 조금 기다리자. 프로젝트를 생성하고 로딩중인 것이니.. 그리고 실행해 보자! 실행 방법은 프로젝트 우클릭 -> Run As -> Spring Boot App 을 누르면 된다.
+# 4. 만들었으니 실행해볼텐데 오른쪽 아래의 초록색이 움직이고 있다면 조금 기다리자. 프로젝트를 생성하고 로딩중인 것이니.. 그리고 실행해 보자! 실행 방법은 프로젝트 우클릭 -> Run As -> Spring Boot App 을 누르면 된다.
 <br>
 <br>
 <br>
-## 5. 아마 안될거다. 그리고 아래와 같은 오류가 뜰텐데 이는 위에서 말했듯이 MySQL Driver 는 설치했는데 연결을 안해줘서 그렇다.
+# 5. 아마 안될거다. 그리고 아래와 같은 오류가 뜰텐데 이는 위에서 말했듯이 MySQL Driver 는 설치했는데 연결을 안해줘서 그렇다.
 <br>
 <img width="100%" src="https://user-images.githubusercontent.com/48707324/125419643-97c94959-8e39-458a-a532-c52a12ac4d6b.png"/>
 <br>
 <br>
 <br>
-## 6. 그럼 이제 MySQL Driver 설정을 하자. 프로젝트에서 src/main/resources 를 열어보면 application.properties 라는 파일이 있다. 이걸 열어보면 아무것도 없을텐데 아래의 그림에서 DB주소와 username(id) 와 password 를 변경해서 넣어주면 된다. 물론 포트를 바꾸고 싶다면 첫 줄의 포트를 수정해도 된다. 그리고 앞에 #이 붙은건 주석처리 된 것이니 신경 안써도 된다.
+# 6. 그럼 이제 MySQL Driver 설정을 하자. 프로젝트에서 src/main/resources 를 열어보면 application.properties 라는 파일이 있다. 이걸 열어보면 아무것도 없을텐데 아래의 그림에서 DB주소와 username(id) 와 password 를 변경해서 넣어주면 된다. 물론 포트를 바꾸고 싶다면 첫 줄의 포트를 수정해도 된다. 그리고 앞에 #이 붙은건 주석처리 된 것이니 신경 안써도 된다.
 <br>
 <img width="100%" src="https://user-images.githubusercontent.com/48707324/125420725-116850d1-6842-45bc-adb2-2ee9a4f0aef0.png"/>
 <br>
 <br>
 <br>
-## 7. 다시 4번으로 돌아가 실행해보자. 오류가 안 나왔다면 인터넷 창을 열어 localhost:8080 이라고 주소창에 입력해본다. 그럼 무슨 에러 페이지라고 하나 나올텐데 그게 정상이다. 우린 아직 화면에 보여주는 것을 만들지 않았으니 말이다.
+# 7. 다시 4번으로 돌아가 실행해보자. 오류가 안 나왔다면 인터넷 창을 열어 localhost:8080 이라고 주소창에 입력해본다. 그럼 무슨 에러 페이지라고 하나 나올텐데 그게 정상이다. 우린 아직 화면에 보여주는 것을 만들지 않았으니 말이다.
