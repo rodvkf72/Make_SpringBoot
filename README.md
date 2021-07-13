@@ -67,7 +67,9 @@
 <br>
 <b>6. 그럼 이제 MySQL Driver 설정을 하자. 프로젝트에서 src/main/resources 를 열어보면 application.properties 라는 파일이 있다.<br>
   이걸 열어보면 아무것도 없을텐데 아래의 그림에서 DB주소와 username(id) 와 password 를 변경해서 넣어주면 된다.<br>
-  물론 포트를 바꾸고 싶다면 첫 줄의 포트를 수정해도 된다. 그리고 앞에 #이 붙은건 주석처리 된 것이니 신경 안써도 된다.</b>
+  물론 포트를 바꾸고 싶다면 첫 줄의 포트를 수정해도 된다. 그리고 앞에 #이 붙은건 주석처리 된 것이니 신경 안써도 된다.<br>
+  2,3 라인의 구문은 jsp 파일의 루트 경로를 지정해준다고 생각하면 편하다.</b>
+  
 <br><br>
 <img width="100%" src="https://user-images.githubusercontent.com/48707324/125420725-116850d1-6842-45bc-adb2-2ee9a4f0aef0.png"/>
 <br>
