@@ -1,20 +1,17 @@
 # Spring Boot 만들기
 <br>
-<stroke>심심해서 만듬</stroke>
-<br>
-<br>
-이 글은 <b>Spring Tool Suite 4</b> 를 기준으로 작성 되었습니다.
+심심해서 만들었으며 이 글은 <b>Spring Tool Suite 4</b> 를 기준으로 작성 되었습니다.
 <br>
 <br>
 <b>1. sts4를 실행한 뒤 왼쪽 상단의 File -> New -> Spring Starter Project 를 클릭한다.<br>
   Spring Starter Project 가 안보인다면 File -> New -> Other 을 클릭한 뒤 Wizards 아래의 텍스트 박스에 spring 이라고 검색한다.</b>
-<br>
-<img width="70%" src="https://user-images.githubusercontent.com/48707324/125416774-4347d8e6-0ad9-4813-9826-e91a8e5b8438.png"/>
+<br><br>
+<img width="50%" src="https://user-images.githubusercontent.com/48707324/125416774-4347d8e6-0ad9-4813-9826-e91a8e5b8438.png"/>
 <br>
 <br>
 <br>
 <b>2. 아래의 그림으로 설명한다.</b>
-<br>
+<br><br>
 <img width="50%" src="https://user-images.githubusercontent.com/48707324/125416907-70b4ec22-43ff-46c7-a2ca-cbde8cf45f1d.png"/>
 <br>
 - Service URL은 Spring Boot 패키지를 만들어주는 사이트이다. 기본으로 선택되어 있으니 넘어간다.
@@ -44,7 +41,7 @@
 <br>
 <br>
 <b>3. 아래의 그림으로 설명한다.</b>
-<br>
+<br><br>
 <img width="50%" src="https://user-images.githubusercontent.com/48707324/125418240-93bddd22-074f-4de1-b8d2-6989f1fd5361.png"/>
 <br>
 - Spring Boot Version 은 버전마다 무슨 차이인지 잘 모르니 그냥 냅두자.
@@ -63,7 +60,7 @@
 <br>
 <br>
 <b>5. 아마 안될거다. 그리고 아래와 같은 오류가 뜰텐데 이는 위에서 말했듯이 MySQL Driver 는 설치했는데 연결을 안해줘서 그렇다.</b>
-<br>
+<br><br>
 <img width="100%" src="https://user-images.githubusercontent.com/48707324/125419643-97c94959-8e39-458a-a532-c52a12ac4d6b.png"/>
 <br>
 <br>
@@ -71,7 +68,7 @@
 <b>6. 그럼 이제 MySQL Driver 설정을 하자. 프로젝트에서 src/main/resources 를 열어보면 application.properties 라는 파일이 있다.<br>
   이걸 열어보면 아무것도 없을텐데 아래의 그림에서 DB주소와 username(id) 와 password 를 변경해서 넣어주면 된다.<br>
   물론 포트를 바꾸고 싶다면 첫 줄의 포트를 수정해도 된다. 그리고 앞에 #이 붙은건 주석처리 된 것이니 신경 안써도 된다.</b>
-<br>
+<br><br>
 <img width="100%" src="https://user-images.githubusercontent.com/48707324/125420725-116850d1-6842-45bc-adb2-2ee9a4f0aef0.png"/>
 <br>
 <br>
