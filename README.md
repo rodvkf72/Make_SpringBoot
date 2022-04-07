@@ -120,7 +120,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>4. 위에서부터 순서대로 가보자. DataAccessConfig.java는 아래와 같다.</b>
 <br><br>
-<img width="50%" src="https://user-images.githubusercontent.com/48707324/162162888-c61d7fad-7852-431e-a0ff-9ce658e25435.PNG"/>
+<img width="100%" src="https://user-images.githubusercontent.com/48707324/162162888-c61d7fad-7852-431e-a0ff-9ce658e25435.PNG"/>
 <br>
 - 세팅하는 부분이라 나도 자세히는 모른다. 자신의 패키지 명에 맞게 대충 바꿔넣자.
 <br>
@@ -128,7 +128,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>5. DataSourceConfig.java</b>
 <br><br>
-<img width="50%" src="https://user-images.githubusercontent.com/48707324/162165985-5fef90e4-bf1c-4fe5-8192-294943db1b9d.PNG"/>
+<img width="80%" src="https://user-images.githubusercontent.com/48707324/162165985-5fef90e4-bf1c-4fe5-8192-294943db1b9d.PNG"/>
 <br>
 - 얘도 세팅하는 부분이라 잘 모른다. 그냥 적어놓자.
 <br>
@@ -146,7 +146,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>7. 다음은 NoticeboardService.java 이다.</b>
 <br><br>
-<img width="100%" src="https://user-images.githubusercontent.com/48707324/162168479-77c7b2e9-666a-40f1-8c19-7117acab12ae.PNG"/>
+<img width="90%" src="https://user-images.githubusercontent.com/48707324/162168479-77c7b2e9-666a-40f1-8c19-7117acab12ae.PNG"/>
 <br>
 - 얘는 클래스가 아니라 인터페이스로 되어 있는데 이 서비스를 구현하는건 Impl 파일에서 진행한다.
 <br><br>
@@ -156,7 +156,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>8. 다음은 NoticeboardMapper.java 이다. 6번에서 분명 Service -> Mapper 라고 했는데 왜 Mapper를 먼저 하느냐 하면 실제로 구현된 파일인 ServiceImpl은 Mapper 인터페이스가 정의되어 있지 않다면 에러가 나기 때문이다.</b>
 <br><br>
-<img width="100%" src="https://user-images.githubusercontent.com/48707324/162169827-2c5eca87-881d-44a3-a044-d89257d8c317.PNG"/>
+<img width="90%" src="https://user-images.githubusercontent.com/48707324/162169827-2c5eca87-881d-44a3-a044-d89257d8c317.PNG"/>
 <br>
 - 얘는 구현된 파일인 ServiceImpl에서 사용할 때 쿼리문이 작성된 xml 파일을 매핑하는 친구이다.
 <br>
@@ -176,7 +176,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>10. 다시 Service 로 돌아와서 NoticeboardServiceImpl.java 이다.</b>
 <br><br>
-<img width="100%" src="https://user-images.githubusercontent.com/48707324/162172789-5951cda9-8ace-40af-b35a-82102c550db7.PNG"/>
+<img width="90%" src="https://user-images.githubusercontent.com/48707324/162172789-5951cda9-8ace-40af-b35a-82102c550db7.PNG"/>
 <br>
 - 클래스 위에 @Service 로 서비스 코드임을 명시하고 @Autowired 를 통해 ~Mapper.java 파일과 연결한다. 만약 @Autowired가 없다면 ~Mapper.java 파일의 경로를 일일이 작성해 주어야 한다.
 <br><br>
@@ -186,7 +186,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>11. MVC 패턴의 마지막인 컨트롤러이다. NoticeboardController.java 파일의 코드는 아래와 같다.</b>
 <br><br>
-<img width="100%" src="https://user-images.githubusercontent.com/48707324/162178830-9617771d-2389-49b6-8827-4bfd5f88d794.PNG"/>
+<img width="90%" src="https://user-images.githubusercontent.com/48707324/162178830-9617771d-2389-49b6-8827-4bfd5f88d794.PNG"/>
 <br>
 - Controller 라는 것을 명시하기 위해 클래스 위에 @Controller 라고 어노테이션을 작성한다.
 <br><br>
@@ -216,7 +216,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>14. 끝! 인것 같지만 이대로 실행하면 안돌아간다. 설정 몇 가지를 추가해 주자. 프로젝트 최상위에 있는 pom.xml 파일의 <dependencies> 안에 아래의 내용을 추가한다.</b>
 <br><br>
-<img width="100%" src="https://user-images.githubusercontent.com/48707324/162182915-c2e0d004-7ee4-4f86-84c2-19cd515b40b7.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/48707324/162182915-c2e0d004-7ee4-4f86-84c2-19cd515b40b7.png"/>
 <br>
 <br>
 <br>
