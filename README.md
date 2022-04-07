@@ -146,7 +146,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>7. 다음은 NoticeboardService.java 이다.</b>
 <br><br>
-<img width="50%" src="https://user-images.githubusercontent.com/48707324/162168479-77c7b2e9-666a-40f1-8c19-7117acab12ae.PNG"/>
+<img width="100%" src="https://user-images.githubusercontent.com/48707324/162168479-77c7b2e9-666a-40f1-8c19-7117acab12ae.PNG"/>
 <br>
 - 얘는 클래스가 아니라 인터페이스로 되어 있는데 이 서비스를 구현하는건 Impl 파일에서 진행한다.
 <br><br>
@@ -156,7 +156,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>8. 다음은 NoticeboardMapper.java 이다. 6번에서 분명 Service -> Mapper 라고 했는데 왜 Mapper를 먼저 하느냐 하면 실제로 구현된 파일인 ServiceImpl은 Mapper 인터페이스가 정의되어 있지 않다면 에러가 나기 때문이다.</b>
 <br><br>
-<img width="50%" src="https://user-images.githubusercontent.com/48707324/162169827-2c5eca87-881d-44a3-a044-d89257d8c317.PNG"/>
+<img width="100%" src="https://user-images.githubusercontent.com/48707324/162169827-2c5eca87-881d-44a3-a044-d89257d8c317.PNG"/>
 <br>
 - 얘는 구현된 파일인 ServiceImpl에서 사용할 때 쿼리문이 작성된 xml 파일을 매핑하는 친구이다.
 <br>
@@ -164,7 +164,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>9. 다음은 noticeboardMapper.xml 이다.</b>
 <br><br>
-<img width="50%" src="https://user-images.githubusercontent.com/48707324/162171519-e9a4d01e-303b-4155-86b9-4d367db4fed0.png"/>
+<img width="100%" src="https://user-images.githubusercontent.com/48707324/162171519-e9a4d01e-303b-4155-86b9-4d367db4fed0.png"/>
 <br>
 - 실제 쿼리문이 들어가는 파일이다. namespace 부분에는 인터페이스로 작성한 ~Mapper.java 파일을 패키지 경로와 함께 써준다.
 <br><br>
@@ -176,7 +176,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>10. 다시 Service 로 돌아와서 NoticeboardServiceImpl.java 이다.</b>
 <br><br>
-<img width="50%" src="https://user-images.githubusercontent.com/48707324/162172789-5951cda9-8ace-40af-b35a-82102c550db7.PNG"/>
+<img width="100%" src="https://user-images.githubusercontent.com/48707324/162172789-5951cda9-8ace-40af-b35a-82102c550db7.PNG"/>
 <br>
 - 클래스 위에 @Service 로 서비스 코드임을 명시하고 @Autowired 를 통해 ~Mapper.java 파일과 연결한다. 만약 @Autowired가 없다면 ~Mapper.java 파일의 경로를 일일이 작성해 주어야 한다.
 <br><br>
@@ -186,7 +186,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>11. MVC 패턴의 마지막인 컨트롤러이다. NoticeboardController.java 파일의 코드는 아래와 같다.</b>
 <br><br>
-<img width="50%" src="https://user-images.githubusercontent.com/48707324/162178830-9617771d-2389-49b6-8827-4bfd5f88d794.PNG"/>
+<img width="100%" src="https://user-images.githubusercontent.com/48707324/162178830-9617771d-2389-49b6-8827-4bfd5f88d794.PNG"/>
 <br>
 - Controller 라는 것을 명시하기 위해 클래스 위에 @Controller 라고 어노테이션을 작성한다.
 <br><br>
@@ -208,7 +208,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>13. jsp 파일을 작성해보자. 코드는 아래와 같다.</b>
 <br><br>
-<img width="50%" src="https://user-images.githubusercontent.com/48707324/162181109-03fe06ff-d920-48a5-a277-3ae669bb18dc.PNG"/>
+<img width="100%" src="https://user-images.githubusercontent.com/48707324/162181109-03fe06ff-d920-48a5-a277-3ae669bb18dc.PNG"/>
 <br>
 - 별 다른 내용은 없고 c:forEach 는 반복문을 뜻한다. items의 ${} 안 내용은 위에서 언급했듯이 Controller의 model.addAttribute에서 지정한 첫번 째 변수 값이다. ${}는 jsp에서 서버에서 나온 값을 인식하게 해 주는 문자라고 생각하면 된다. var 는 items를 어떻게 부를거냐 라는 것이고 varStatus는 반복문의 상태값을 어떻게 부를거냐 라는 것이다. 반복문의 횟수를 확인하고 싶다면 ${status.index} 와 같이 나타낼 수 있다.
 <br>
@@ -216,7 +216,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 <b>14. 끝! 인것 같지만 이대로 실행하면 안돌아간다. 설정 몇 가지를 추가해 주자. 프로젝트 최상위에 있는 pom.xml 파일의 <dependencies> 안에 아래의 내용을 추가한다.</b>
 <br><br>
-<img width="50%" src="https://user-images.githubusercontent.com/48707324/162182915-c2e0d004-7ee4-4f86-84c2-19cd515b40b7.png"/>
+<img width="100%" src="https://user-images.githubusercontent.com/48707324/162182915-c2e0d004-7ee4-4f86-84c2-19cd515b40b7.png"/>
 <br>
 <br>
 <br>
