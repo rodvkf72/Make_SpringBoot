@@ -168,7 +168,7 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 - 실제 쿼리문이 들어가는 파일이다. namespace 부분에는 인터페이스로 작성한 ~Mapper.java 파일을 패키지 경로와 함께 써준다.
 <br><br>
-- <select 라고 적혀있는 부분 옆 id는 ~Mapper.java 파일에서 작성한 메소드명을 작성한다.
+- select 라고 적혀있는 부분 옆 id는 ~Mapper.java 파일에서 작성한 메소드명을 작성한다.
 <br><br>
 - resultType 은 쿼리문을 돌리고 나서 나온 값을 어떤 형태로 넣을거냐 하는 것이다. select 구문에서 하나만 찾고자 하는 경우 int나 String 타입으로 지정이 가능하지만 우린 int와 String이 여러 개 있는 상태로 들고와야 하므로 클래스 타입으로 받는다. 받는 클래스 타입은 아까 작성한 VO 파일로 한다.
 <br>
