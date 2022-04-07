@@ -190,6 +190,8 @@ src/main/resources 아래에 mapper 폴더와 noticeboardMapper.xml 파일이 �
 <br>
 - Controller 라는 것을 명시하기 위해 클래스 위에 @Controller 라고 어노테이션을 작성한다.
 <br><br>
+- @RequestMapping 옆의 value 값은 url의 주소이다. 여기선 /noticeboard 이므로 localhost:8080/noticeboard 로 접속하면 해당 메소드를 실행하게 된다. 다른 값으로 변경하면 변경한 url 주소로 접속해야 해당 메소드가 실행된다.
+<br><br>
 - Impl 파일에서는 Mapper를 Autowired 하였다면 Controller 파일에서는 Service를 Autowired 한다.
 <br><br>
 - 로직 처리를 한다면 보통 여기서 많이 한다. 일단 별도의 로직은 없으므로 서비스 코드를 호출하여 리스트를 가져오고 가져온 리스트를 jsp 파일에서 보여주기 위해 model 이라는 객체에 addAttribute를 통해 데이터를 집어넣는다. addAttribute 는 매개변수를 2개를 가지는데 앞 부분은 String 으로 받는다. 뒷 부분은 Object로 받기에 뭘 넣어도 된다. String 이었던 앞의 매개변수는 jsp 파일에서 불러올 때 사용되는 문자이므로 임의로 지정하여도 상관 없다.
